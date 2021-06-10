@@ -25,6 +25,7 @@ Temporary Items
 .project
 .idea
 .vscore
+.vscode
 
 # Node
 node_modules
