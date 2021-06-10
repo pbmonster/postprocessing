@@ -1,4 +1,4 @@
-import { BackSide, DoubleSide, FrontSide } from "three";
+import { BackSide, DoubleSide, FrontSide } from "super-three";
 
 /**
  * A flag that indicates whether the override material workaround is enabled.

@@ -5,7 +5,7 @@ import {
 	RGBADepthPacking,
 	UnsignedByteType,
 	WebGLRenderTarget
-} from "three";
+} from "super-three";
 
 import { DepthCopyMaterial } from "../materials";
 import { Pass } from "./Pass";

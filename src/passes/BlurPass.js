@@ -3,7 +3,7 @@ import {
 	RGBFormat,
 	UnsignedByteType,
 	WebGLRenderTarget
-} from "three";
+} from "super-three";
 
 import { ConvolutionMaterial, KernelSize } from "../materials";
 import { Resizer } from "../core/Resizer";

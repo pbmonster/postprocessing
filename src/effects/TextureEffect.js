@@ -4,7 +4,7 @@ import {
 	sRGBEncoding,
 	Uniform,
 	UnsignedByteType
-} from "three";
+} from "super-three";
 
 import { ColorChannel } from "../core/ColorChannel";
 import { BlendFunction } from "./blending/BlendFunction";

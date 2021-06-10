@@ -6,7 +6,7 @@ import {
 	MeshPhongMaterial,
 	OctahedronBufferGeometry,
 	SphereBufferGeometry
-} from "three";
+} from "super-three";
 
 /**
  * Creates an object cloud.

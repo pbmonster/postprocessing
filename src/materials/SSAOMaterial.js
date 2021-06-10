@@ -5,7 +5,7 @@ import {
 	ShaderMaterial,
 	Uniform,
 	Vector2
-} from "three";
+} from "super-three";
 
 import fragmentShader from "./glsl/ssao/shader.frag";
 import vertexShader from "./glsl/ssao/shader.vert";

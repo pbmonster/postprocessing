@@ -4,7 +4,7 @@ import {
 	Uniform,
 	UnsignedByteType,
 	WebGLRenderTarget
-} from "three";
+} from "super-three";
 
 import { Resizer } from "../core/Resizer";
 import { KernelSize } from "../materials";

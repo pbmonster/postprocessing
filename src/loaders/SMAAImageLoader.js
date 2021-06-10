@@ -1,4 +1,4 @@
-import { Loader, LoadingManager } from "three";
+import { Loader, LoadingManager } from "super-three";
 
 import searchImageDataURL from "../images/smaa/searchImageDataURL";
 import areaImageDataURL from "../images/smaa/areaImageDataURL";

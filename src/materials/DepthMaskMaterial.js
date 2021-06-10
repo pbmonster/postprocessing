@@ -10,7 +10,7 @@ import {
 	NotEqualDepth,
 	ShaderMaterial,
 	Uniform
-} from "three";
+} from "super-three";
 
 import fragmentShader from "./glsl/depth-mask/shader.frag";
 import vertexShader from "./glsl/common/shader.vert";

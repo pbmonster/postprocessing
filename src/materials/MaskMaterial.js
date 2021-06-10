@@ -1,4 +1,4 @@
-import { NoBlending, ShaderMaterial, Uniform, UnsignedByteType } from "three";
+import { NoBlending, ShaderMaterial, Uniform, UnsignedByteType } from "super-three";
 import { ColorChannel } from "../core/ColorChannel";
 
 import fragmentShader from "./glsl/mask/shader.frag";

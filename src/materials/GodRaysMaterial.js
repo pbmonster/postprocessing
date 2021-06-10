@@ -1,4 +1,4 @@
-import { NoBlending, ShaderMaterial, Uniform } from "three";
+import { NoBlending, ShaderMaterial, Uniform } from "super-three";
 
 import fragmentShader from "./glsl/god-rays/shader.frag";
 import vertexShader from "./glsl/common/shader.vert";

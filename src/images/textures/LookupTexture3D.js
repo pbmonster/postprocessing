@@ -11,7 +11,7 @@ import {
 	sRGBEncoding,
 	UnsignedByteType,
 	Vector3
-} from "three";
+} from "super-three";
 
 import { RawImageData } from "../RawImageData";
 import { LUTOperation } from "../lut/LUTOperation";

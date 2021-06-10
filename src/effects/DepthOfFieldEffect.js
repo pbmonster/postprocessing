@@ -5,7 +5,7 @@ import {
 	Uniform,
 	UnsignedByteType,
 	WebGLRenderTarget
-} from "three";
+} from "super-three";
 
 import {
 	BokehMaterial,

@@ -1,4 +1,4 @@
-import { NoBlending, PerspectiveCamera, ShaderMaterial, Uniform } from "three";
+import { NoBlending, PerspectiveCamera, ShaderMaterial, Uniform } from "super-three";
 
 import fragmentShader from "./glsl/circle-of-confusion/shader.frag";
 import vertexShader from "./glsl/common/shader.vert";

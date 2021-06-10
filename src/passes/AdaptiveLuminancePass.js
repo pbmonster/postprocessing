@@ -3,7 +3,7 @@ import {
 	NearestFilter,
 	RGBAFormat,
 	WebGLRenderTarget
-} from "three";
+} from "super-three";
 
 import { AdaptiveLuminanceMaterial } from "../materials";
 import { Pass } from "./Pass";

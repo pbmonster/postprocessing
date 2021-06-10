@@ -1,4 +1,4 @@
-import { FileLoader, Loader, LoadingManager, sRGBEncoding, Vector3 } from "three";
+import { FileLoader, Loader, LoadingManager, sRGBEncoding, Vector3 } from "super-three";
 import { LookupTexture3D } from "../images/textures/LookupTexture3D";
 
 /**

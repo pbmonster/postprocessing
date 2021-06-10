@@ -8,7 +8,7 @@ import {
 	RGBFormat,
 	UnsignedByteType,
 	WebGLRenderTarget
-} from "three";
+} from "super-three";
 
 import { Selection } from "../core/Selection";
 import { DepthMaskMaterial } from "../materials";

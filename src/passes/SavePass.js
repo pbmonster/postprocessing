@@ -3,7 +3,7 @@ import {
 	RGBFormat,
 	UnsignedByteType,
 	WebGLRenderTarget
-} from "three";
+} from "super-three";
 
 import { CopyMaterial } from "../materials";
 import { Pass } from "./Pass";

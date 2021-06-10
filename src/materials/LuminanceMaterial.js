@@ -1,4 +1,4 @@
-import { NoBlending, ShaderMaterial, Uniform, Vector2 } from "three";
+import { NoBlending, ShaderMaterial, Uniform, Vector2 } from "super-three";
 
 import fragmentShader from "./glsl/luminance/shader.frag";
 import vertexShader from "./glsl/common/shader.vert";

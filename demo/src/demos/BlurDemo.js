@@ -4,7 +4,7 @@ import {
 	DirectionalLight,
 	PerspectiveCamera,
 	sRGBEncoding
-} from "three";
+} from "super-three";
 
 import { ControlMode, SpatialControls } from "spatial-controls";
 import { ProgressManager } from "../utils/ProgressManager";

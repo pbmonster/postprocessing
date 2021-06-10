@@ -24,7 +24,7 @@ npm install three postprocessing
 Post processing introduces the concept of passes and effects to extend the common rendering workflow with fullscreen image manipulation tools. The following WebGL attributes should be used for an optimal post processing workflow:
 
 ```js
-import { WebGLRenderer } from "three";
+import { WebGLRenderer } from "super-three";
 
 const renderer = new WebGLRenderer({
 	powerPreference: "high-performance",
@@ -38,7 +38,7 @@ The [EffectComposer](https://vanruesc.github.io/postprocessing/public/docs/class
 
 ```js
 import { BloomEffect, EffectComposer, EffectPass, RenderPass } from "postprocessing";
-import { Clock } from "three";
+import { Clock } from "super-three";
 
 const composer = new EffectComposer(renderer);
 composer.addPass(new RenderPass(scene, camera));
@@ -60,7 +60,7 @@ requestAnimationFrame(function render() {
 Simply set `WebGLRenderer.outputEncoding` to the desired target color space and `postprocessing` will follow suit. Built-in passes automatically encode colors when they render to screen and internal render operations are always performed in linear color space. It's [recommended](https://blog.demofox.org/2018/03/10/dont-convert-srgb-u8-to-linear-u8/) to enable high precision frame buffers when using `sRGBEncoding`:
 
 ```js
-import { HalfFloatType } from "three";
+import { HalfFloatType } from "super-three";
 
 const composer = new EffectComposer(renderer, {
 	frameBufferType: HalfFloatType

@@ -5,7 +5,7 @@ import {
 	RGBFormat,
 	Uniform,
 	WebGLRenderTarget
-} from "three";
+} from "super-three";
 
 import { AdaptiveLuminancePass, LuminancePass } from "../passes";
 import { BlendFunction } from "./blending/BlendFunction";

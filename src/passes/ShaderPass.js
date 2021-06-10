@@ -1,4 +1,4 @@
-import { UnsignedByteType } from "three";
+import { UnsignedByteType } from "super-three";
 import { Pass } from "./Pass";
 
 /**

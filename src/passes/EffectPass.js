@@ -1,4 +1,4 @@
-import { BasicDepthPacking, UnsignedByteType } from "three";
+import { BasicDepthPacking, UnsignedByteType } from "super-three";
 import { BlendFunction } from "../effects/blending";
 import { EffectAttribute } from "../effects/Effect";
 import { EffectMaterial, Section } from "../materials";

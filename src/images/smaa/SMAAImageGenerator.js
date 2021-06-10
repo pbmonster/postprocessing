@@ -1,4 +1,4 @@
-import { LoadingManager } from "three";
+import { LoadingManager } from "super-three";
 import { RawImageData } from "../RawImageData";
 import workerProgram from "../../../tmp/smaa/worker.txt";
 

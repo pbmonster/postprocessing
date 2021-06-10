@@ -4,7 +4,7 @@ import {
 	RGBAFormat,
 	UnsignedByteType,
 	WebGLRenderTarget
-} from "three";
+} from "super-three";
 
 import { LuminanceMaterial } from "../materials";
 import { Resizer } from "../core/Resizer";

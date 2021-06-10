@@ -3,7 +3,7 @@ import {
 	FloatType,
 	NearestFilter,
 	WebGLRenderTarget
-} from "three";
+} from "super-three";
 
 import { Resizer } from "../core/Resizer";
 import { DepthDownsamplingMaterial } from "../materials";

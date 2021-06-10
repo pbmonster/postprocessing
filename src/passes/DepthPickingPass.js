@@ -1,4 +1,4 @@
-import { FloatType, RGBADepthPacking } from "three";
+import { FloatType, RGBADepthPacking } from "super-three";
 import { DepthCopyMode } from "../materials";
 import { DepthSavePass } from "./DepthSavePass";
 
